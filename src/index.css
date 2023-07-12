@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Monoton&family=Poppins:wght@300;400;600&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
+}
+
+.grecaptcha-badge {
+	display: none;
+}
+
+.cross-btn-shadow {
+	box-shadow: 0px 0px 5px red;
+}
+
+::-webkit-scrollbar {
+	display: block;
+	width: 5px;
+	background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #41ead4;
+	width: 5px;
+	border-radius: 50px;
+}
+
+::-webkit-scrollbar-track-piece:end {
+	background: transparent;
+	margin-bottom: 15px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+	background: transparent;
+	margin-top: 15px;
+}

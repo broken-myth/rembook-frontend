@@ -1,0 +1,17 @@
+.glassContainer {
+	border-radius: 20px;
+	background: rgba(42, 39, 39, 0.3);
+	box-shadow: 0 4px 30px rgba(42, 39, 39, 0.3);
+	backdrop-filter: blur(22px);
+	-webkit-backdrop-filter: blur(22px);
+	border: 1px solid rgb(0 245 213);
+	width: 75%;
+	max-width: 100%;
+	padding: 2rem;
+	z-index: 10;
+}
+
+.writeRemPage {
+	height: 90vh;
+	width: 100%;
+}

@@ -1,0 +1,6 @@
+.landing_overlay_bg {
+	background: rgba(42, 39, 39, 0.3);
+	box-shadow: 0 4px 30px rgba(42, 39, 39, 0.3);
+	backdrop-filter: blur(22px);
+	-webkit-backdrop-filter: blur(22px);
+}

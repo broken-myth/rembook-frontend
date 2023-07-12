@@ -1,0 +1,28 @@
+.profile_box_bg {
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
+	border: 1px solid rgb(0 245 213);
+	z-index: 2;
+}
+
+.sidebar_bg {
+	background: rgb(0, 0, 0, 0.8);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(2.4px);
+	border: 1px solid rgb(0 245 213);
+	z-index: 10;
+}
+
+.searchPage {
+	background: rgba(42, 39, 39, 0.3);
+	box-shadow: 0 4px 30px rgba(42, 39, 39, 0.3);
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
+	border: 1px solid rgb(0 245 213);
+	z-index: 2;
+	margin-left: 5%;
+	width: 90%;
+}

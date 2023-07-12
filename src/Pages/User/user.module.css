@@ -1,0 +1,17 @@
+.dashboard_bg {
+	background: linear-gradient(
+			98.54deg,
+			rgba(85, 108, 113, 0.2) -85.58%,
+			rgba(23, 52, 52, 0.2) 39.09%
+		),
+		linear-gradient(180deg, #22006b 23.42%, #00b0c8 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: clip;
+}
+
+.dashboard_overlay_bg {
+	background-color: rgba(161, 220, 224, 0.3);
+	backdrop-filter: blur(9px);
+	-webkit-backdrop-filter: blur(9px);
+	border-radius: 20px;
+}
